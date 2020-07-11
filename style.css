@@ -5,6 +5,9 @@ html {
   font-size: 0.425rem;
   box-sizing: border-box;
 }
+body{
+  background: black !important;
+}
 
 *, *:before, *:after {
   box-sizing: inherit;
@@ -12,6 +15,9 @@ html {
 *{
   margin:0;
   padding: 0;
+}
+.list-group{
+  display: inline-block !important;
 }
 .ir {
   display: block;
