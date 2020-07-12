@@ -16,6 +16,22 @@ body{
   margin:0;
   padding: 0;
 }
+input[type='reset']{
+  color: black;
+  background-color: white;
+  width:200px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 30px;
+  transition: 0.45s;
+}
+input[type='reset']:hover{
+  background: #0000;
+  border:solid white;
+  border-width: thin;
+  transition: 0.45s;
+}
 .list-group{
   display: inline-block !important;
 }
@@ -60,11 +76,46 @@ body{
   width: 96px;
   width: 9.6rem;
 }
-.icon-13:hover,.icon-10:hover,.icon-15:hover,.icon-26:hover
+.icon-13:hover
 {
   border-radius: 100%;
-  color: #0e1a25;
-  fill: #0e1a25;
+  color: #6e5494;
+  fill: #6e5494;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.icon-10:hover{
+  border-radius: 100%;
+  color: #4078c0;
+  fill: #4078c0;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.icon-15:hover
+{
+  border-radius: 100%;
+  color: #fb3958;
+  fill: #fb3958;
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out;
+  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+}
+.icon-26:hover
+{
+  border-radius: 100%;
+  color: #00acee;
+  fill: #00acee;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
   -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
@@ -77,28 +128,29 @@ body{
   fill: #26d991;
 }
 .icon-13:hover {
-  background: #26d991;
+  background: white;
 }
 .icon-10 {
-  color: #26d926;
-  fill: #26d926;
+  color: #4078c0;
+  fill: #4078c0;
 }
 .icon-10:hover {
-  background: #26d926;
+  background: white;
 }
 .icon-15 {
-  color: #26d9d9;
-  fill: #26d9d9;
+  color: #fb3958;
+  fill: #fb3958;
 }
 .icon-15:hover {
-  background: #26d9d9;
+  background: white;
+
 }
 .icon-26 {
-  color: #d926b5;
-  fill: #d926b5;
+  color: #00acee;
+  fill: #00acee;
 }
 .icon-26:hover {
-  background: #d926b5;
+  background: white;
 }
 
 #pic{
@@ -117,6 +169,63 @@ body{
 .t-10{
   margin-top: 100px;
 }
+
+/*Autotype*/
+.banner {
+	display: block;
+	min-height: 100px;
+	width: 100%;
+	position: relative;
+  z-index: 999;
+}
+
+.typed_wrap {
+	color: white;
+	display: block;
+	width: 400px;
+	height: auto;
+	padding: 40px;
+	/*centers it in the .banner*/
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.typed_wrap h1 {
+	display: inline;
+}
+.typed::after {
+	content: '|';
+	display: inline;
+	-webkit-animation: blink 0.7s infinite;
+	-moz-animation: blink 0.7s infinite;
+	animation: blink 0.7s infinite;
+}
+.typed-cursor{
+   opacity: 0;
+	display: none;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/*Autotype ends*/
 
 #stars {
   width: 1px;
@@ -178,7 +287,7 @@ body{
   text-align: center;
   font-family: "lato", sans-serif;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 55px;
   letter-spacing: 10px;
   margin-top: -60px;
   padding-left: 10px;
