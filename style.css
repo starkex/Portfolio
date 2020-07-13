@@ -12,6 +12,15 @@ body{
 *, *:before, *:after {
   box-sizing: inherit;
 }
+.containers{
+  position:fixed;
+  left:25%;
+  width:50%;
+  height:80%;
+  top:15%;
+  justify-content: center;
+  display: flex;
+}
 *{
   margin:0;
   padding: 0;
@@ -31,9 +40,32 @@ input[type='reset']:hover{
   border:solid white;
   border-width: thin;
   transition: 0.45s;
+  color:white;
 }
+
+.pic{
+  width: 200px;
+  height: 200px;
+  border-radius: 45px;
+  background-color: #0000;
+  border: none;
+  position:absolute;
+  z-index: 999;
+}
+.center{
+justify-content: center;
+display: flex;
+}
+
+.t-10{
+  margin-top: 100px;
+}
+
 .list-group{
   display: inline-block !important;
+}
+ul{
+justify-content: center;
 }
 .ir {
   display: block;
@@ -41,40 +73,36 @@ input[type='reset']:hover{
   padding: 0 0 100%;
   position: relative;
   height: 0;
-  width: 100%;
+  justify-content: center;
 }
-.ir > * {
+.social{
+  justify-content: center;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 50px;
+  padding:2%;
   position: absolute;
-  height: 100%;
-  width: 100%;
-  top: 0;
-  left: 0;
+  right:15%;
 }
 .soc {
   display: block;
   font-size: 0;
   list-style: none;
   margin: 0 auto;
-  padding: 48px;
-  padding: 4.8rem;
-  text-align: center;
+  padding: 2%;
+justify-content: center;
   width: 110rem;
-  max-width: 100%;
+
 }
-.soc li {
+.social li, .social a, .social svg{
   display: inline-block;
-  margin: 12px;
-  margin: 1.2rem;
 }
-.soc a, .soc svg {
-  display: block;
-}
-.soc a {
+
+.social a {
   position: relative;
-  height: 96px;
-  height: 9.6rem;
-  width: 96px;
-  width: 9.6rem;
+  height: 75px;
+  width: 75px;
+
 }
 .icon-13:hover
 {
@@ -153,22 +181,6 @@ input[type='reset']:hover{
   background: white;
 }
 
-#pic{
-  width: 200px;
-  height: 200px;
-  border-radius: 45px;
-  background-color: #0000;
-  border: none;
-  top:60px;
-  bottom: 0;
-  right: 0;
-  left:0;
-  position: relative;
-  z-index: 999;
-}
-.t-10{
-  margin-top: 100px;
-}
 
 /*Autotype*/
 .banner {
@@ -180,15 +192,16 @@ input[type='reset']:hover{
 }
 
 .typed_wrap {
+  font-size: 14px;
 	color: white;
 	display: block;
-	width: 400px;
+	width: 660px;
 	height: auto;
 	padding: 40px;
 	/*centers it in the .banner*/
 	position: absolute;
-	top: 40%;
-	left: 50%;
+	top: 60%;
+	left: 52%;
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
@@ -280,20 +293,20 @@ input[type='reset']:hover{
 
 #title {
   position: absolute;
-  top:50%;
+  top:32%;
   left: 0;
   right: 0;
   color: #FFF;
   text-align: center;
   font-family: "lato", sans-serif;
   font-weight: 300;
-  font-size: 55px;
+  font-size: 50px;
   letter-spacing: 10px;
-  margin-top: -60px;
-  padding-left: 10px;
+  justify-content: center;
 }
 
 #title span {
+  justify-content: center;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
