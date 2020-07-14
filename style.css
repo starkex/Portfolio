@@ -41,6 +41,7 @@ input[type='reset']:hover{
   border-width: thin;
   transition: 0.45s;
   color:white;
+
 }
 
 .pic{
@@ -77,12 +78,10 @@ justify-content: center;
 }
 .social{
   justify-content: center;
-  display: inline-block;
   list-style-type: none;
   font-size: 50px;
   padding:2%;
-  position: absolute;
-  right:15%;
+ box-sizing: border-box;
 }
 .soc {
   display: block;
@@ -190,7 +189,6 @@ justify-content: center;
 	position: relative;
   z-index: 999;
 }
-
 .typed_wrap {
   font-size: 14px;
 	color: white;
@@ -294,8 +292,6 @@ justify-content: center;
 #title {
   position: absolute;
   top:32%;
-  left: 0;
-  right: 0;
   color: #FFF;
   text-align: center;
   font-family: "lato", sans-serif;
@@ -306,7 +302,7 @@ justify-content: center;
 }
 
 #title span {
-  justify-content: center;
+  text-align: center  !important;
   background: -webkit-linear-gradient(white, #38495a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
