@@ -36,6 +36,8 @@ input[type='reset']{
   border: none;
   border-radius: 30px;
   transition: 0.45s;
+  outline: none;
+  cursor: pointer;
 }
 input[type='reset']:hover{
   background: #0000;
@@ -43,7 +45,6 @@ input[type='reset']:hover{
   border-width: thin;
   transition: 0.45s;
   color:white;
-
 }
 
 .pic{
@@ -195,7 +196,7 @@ justify-content: center;
 	animation: blink 0.7s infinite;
 }
 .typed-cursor{
-   opacity: 0;
+  opacity: 0;
 	display: none;
 }
 
