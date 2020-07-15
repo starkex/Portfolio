@@ -26,6 +26,8 @@ body{
   padding: 0;
 }
 input[type='reset']{
+  position: relative;
+  top:10px;
   color: black;
   background-color: white;
   width:200px;
@@ -67,9 +69,9 @@ display: flex;
 }
 ul{
 justify-content: center;
-position: relative;
-top: 20%;
+
 }
+
 .ir {
   display: block;
   overflow: visible;
@@ -180,6 +182,7 @@ top: 20%;
   position: relative;
   margin-top: 40px;
   margin-bottom: 18px;
+  top: 5px;
 }
 .typed_wrap h1 {
 	display: inline;
@@ -298,10 +301,12 @@ top: 20%;
     height:150px;
   }
   #title {
+    margin-left: 5px;
     font-size:35px;
   }
+
   .typed_wrap{
-    margin-top: -70px;
+    position: absolute;
     font-size: 9.5px;
     letter-spacing: 5px;
   }
@@ -318,17 +323,19 @@ top: 20%;
   }
 .ali
  {
- margin-top: -65px;
+  position: relative;
  list-style-type:inline;
  z-index: 999;
+top: -30px;
+right: 20px;
   }
   .ali li{
     margin-right: -20px;
   }
   .ali li a{
     padding: 10px;
-    width:55px;
-     height:55px;
+    width:60px;
+     height:60px;
   }
 .tras
   {
@@ -342,6 +349,30 @@ top: 20%;
     transition: background-color 0.5s, transform 0.5s ease-out;
     transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
   }
+
+  input[type='reset']{
+    position: relative;
+    top: -40px;
+    color: black;
+    background-color: white;
+    width:120px;
+    padding: 5px;
+    font-size: 12px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.45s;
+    margin-bottom: 10px;
+    right:8px;
+  }
+  input[type='reset']:hover{
+    background: #0000;
+    border:solid white;
+    border-width: thin;
+    transition: 0.45s;
+    color:white;
+
+  }
+
   .icon-13:hover
   {  color: #6e5494;
     fill: #6e5494;
@@ -392,6 +423,7 @@ top: 20%;
   .icon-26:hover {
     background: white;
   }
-
-
 }
+
+
+/*for me*/
