@@ -14,7 +14,7 @@ $(function(){
 		// loop
 		loop: true,
 		// false = infinite
-		loopCount: 15,
+		loopCount: 999,
 		// show cursor
 		showCursor: false,
 		// character for cursor

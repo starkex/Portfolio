@@ -67,6 +67,8 @@ display: flex;
 }
 ul{
 justify-content: center;
+position: relative;
+top: 20%;
 }
 .ir {
   display: block;
@@ -77,79 +79,55 @@ justify-content: center;
   justify-content: center;
 }
 .social{
+  position: relative;
   justify-content: center;
   list-style-type: none;
   font-size: 50px;
-  padding:2%;
+  top:5%;
  box-sizing: border-box;
 }
-.soc {
-  display: block;
-  font-size: 0;
-  list-style: none;
-  margin: 0 auto;
-  padding: 2%;
-justify-content: center;
-  width: 110rem;
 
-}
 .social li, .social a, .social svg{
   display: inline-block;
 }
-
 .social a {
   position: relative;
-  height: 75px;
-  width: 75px;
+  height: 50px;
+  width: 50px;
 
 }
-.icon-13:hover
-{
+.tras{
   border-radius: 100%;
-  color: #6e5494;
-  fill: #6e5494;
   -webkit-transform: scale(1.25);
           transform: scale(1.25);
   -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
   transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out;
   transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+
+}
+
+.icon-13:hover
+{  color: #6e5494;
+  fill: #6e5494;
 }
 .icon-10:hover{
-  border-radius: 100%;
+
   color: #4078c0;
   fill: #4078c0;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 .icon-15:hover
 {
-  border-radius: 100%;
   color: #fb3958;
   fill: #fb3958;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
 .icon-26:hover
 {
-  border-radius: 100%;
   color: #00acee;
   fill: #00acee;
-  -webkit-transform: scale(1.25);
-          transform: scale(1.25);
-  -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out;
-  transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
 }
+
+
 .icon-13 {
   color: #26d991;
   fill: #26d991;
@@ -179,32 +157,29 @@ justify-content: center;
 .icon-26:hover {
   background: white;
 }
-
-
 /*Autotype*/
-.banner {
-	display: block;
-	min-height: 100px;
-	width: 100%;
-	position: relative;
-  z-index: 999;
-}
+
 .typed_wrap {
   font-size: 14px;
 	color: white;
 	display: block;
 	width: 660px;
 	height: auto;
-	padding: 40px;
+	padding: 35px;
 	/*centers it in the .banner*/
 	position: absolute;
-	top: 60%;
-	left: 52%;
+  margin-top: -20px;
+	left: 54%;
 	-webkit-transform: translate(-50%,-50%);
 	-moz-transform: translate(-50%,-50%);
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
+}
+.ali{
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 18px;
 }
 .typed_wrap h1 {
 	display: inline;
@@ -294,7 +269,7 @@ justify-content: center;
   top:32%;
   color: #FFF;
   text-align: center;
-  font-family: "lato", sans-serif;
+  font-family: "lato", Solaris;
   font-weight: 300;
   font-size: 50px;
   letter-spacing: 10px;
@@ -315,4 +290,108 @@ justify-content: center;
   to {
     transform: translateY(-2000px);
   }
+}
+
+@media only screen and (max-width: 360px) {
+ .pic{
+    width:150px;
+    height:150px;
+  }
+  #title {
+    font-size:35px;
+  }
+  .typed_wrap{
+    margin-top: -70px;
+    font-size: 9.5px;
+    letter-spacing: 5px;
+  }
+  .containers{
+    position:fixed;
+    left:25%;
+    width:50%;
+    height:80%;
+    top:10%;
+  }
+  .col{
+    position: relative;
+    margin-top: 20px;
+  }
+.ali
+ {
+ margin-top: -65px;
+ list-style-type:inline;
+ z-index: 999;
+  }
+  .ali li{
+    margin-right: -20px;
+  }
+  .ali li a{
+    padding: 10px;
+    width:55px;
+     height:55px;
+  }
+.tras
+  {
+    border-radius: 100%;
+    color: #6e5494;
+    fill: #6e5494;
+    -webkit-transform: scale(1.10);
+            transform: scale(1.10);
+    -webkit-transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, -webkit-transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out;
+    transition: background-color 0.5s, transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  }
+  .icon-13:hover
+  {  color: #6e5494;
+    fill: #6e5494;
+  }
+  .icon-10:hover{
+
+    color: #4078c0;
+    fill: #4078c0;
+  }
+  .icon-15:hover
+  {
+    color: #fb3958;
+    fill: #fb3958;
+  }
+  .icon-26:hover
+  {
+    color: #00acee;
+    fill: #00acee;
+  }
+
+
+  .icon-13 {
+    color: #26d991;
+    fill: #26d991;
+  }
+  .icon-13:hover {
+    background: white;
+  }
+  .icon-10 {
+    color: #4078c0;
+    fill: #4078c0;
+  }
+  .icon-10:hover {
+    background: white;
+  }
+  .icon-15 {
+    color: #fb3958;
+    fill: #fb3958;
+  }
+  .icon-15:hover {
+    background: white;
+
+  }
+  .icon-26 {
+    color: #00acee;
+    fill: #00acee;
+  }
+  .icon-26:hover {
+    background: white;
+  }
+
+
 }
