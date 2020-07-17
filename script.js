@@ -35,7 +35,7 @@ $(function(){
 });
 function work()
 {
-var modal = document.getElementById("myModal");
+	var modal = document.getElementById("myModal");
 var btn = document.getElementById("fun");
 var span = document.getElementsByClassName("close")[0];
 btn.onclick = function() {
@@ -54,7 +54,7 @@ modal.style.display = "none";
 
 function workc()
 {
-var modal = document.getElementById("myModal");
+var modal = document.getElementById("myModals");
 var btn = document.getElementById("func");
 var span = document.getElementsByClassName("close")[0];
 
