@@ -618,6 +618,15 @@ right: 20px;
     height:30%;
     margin-top: 5%;
   }
+  #sup{
+    position: relative;
+   padding: auto;
+   margin: auto;
+   top:50%;
+   left:25%;
+    width:50%;
+    height:45%;
+  }
   p{
     position: relative;
     text-align: center;
