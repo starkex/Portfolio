@@ -47,10 +47,10 @@ body{
 }
 #eye{
   position: absolute;
-  width:200px;
-  height:200px;
-  top: 35% ;
-  right:32%;
+  width:180px;
+  height:180px;
+  top: 32% ;
+  right:34%;
 }
 #ids{
   position: relative;
@@ -395,6 +395,24 @@ justify-content: center;
 }
 
 @media only screen and (max-width: 360px) {
+
+  .ir {
+    display: block;
+    overflow: visible;
+    padding: 0 0 100%;
+    position: relative;
+    height: -10px;
+    justify-content: center;
+  }
+
+  .social{
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+    top:5%;
+   box-sizing: border-box;
+  }
   #sup{
     position: relative;
    padding: auto;
@@ -406,10 +424,10 @@ justify-content: center;
   }
   #eye{
     position: absolute;
-    width:140px;
-    height:140px;
+    width:120px;
+    height:120px;
     top: 30% ;
-    right:24%;
+    right:28%;
   }
  .pic{
     width:150px;
@@ -485,7 +503,6 @@ right: 20px;
     border-width: thin;
     transition: 0.45s;
     color:white;
-
   }
 
   .icon-13:hover
@@ -566,7 +583,7 @@ right: 20px;
     border-radius: 20px;
   }
 
-  .close {
+  .close{
     color: #aaaaaa;
     float: right;
     font-size: 18px;
@@ -608,6 +625,25 @@ right: 20px;
 
 /*for me*/
 @media only screen and (max-width: 1080px) {
+
+  .ir {
+    display: block;
+    overflow: visible;
+    padding: 0 0 100%;
+    position: relative;
+    height: -10px;
+    justify-content: center;
+  }
+
+  .social{
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+    top:5%;
+   box-sizing: border-box;
+  }
+
   #ids{
     position: relative;
    padding: auto;
@@ -638,7 +674,7 @@ right: 20px;
   #title {
     margin-left: 5px;
     font-size:35px;
-    margin-top: -10%;
+
   }
 
   .typed_wrap{
@@ -798,5 +834,217 @@ right: 20px;
     text-decoration: none;
     cursor: pointer;
   }
+  #sup{
+    position: relative;
+   padding: auto;
+   margin: auto;
+   top:50%;
+   left:25%;
+    width:50%;
+    height:45%;
+  }
+  #eye{
+    position: absolute;
+    width:120px;
+    height:120px;
+    top: 30% ;
+    right:28%;
+  }
 
 }
+
+@media only screen and (max-width: 375px) {
+  #eye{
+    position: absolute;
+    width:145px;
+    height:145px;
+    top: 30% ;
+    right:26%;
+  }
+  input[type='reset']{
+    position: relative;
+    top: -40px;
+    color: black;
+    background-color: white;
+    width:150px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.45s;
+    margin-bottom: 10px;
+    right:8px;
+  }
+  input[type='reset']:hover{
+    background: #0000;
+    border:solid white;
+    border-width: thin;
+    transition: 0.45s;
+    color:white;
+  }
+}
+@media only screen and (max-height: 667px) {
+
+  input[type='reset']{
+    position: relative;
+    top: -40px;
+    color: black;
+    background-color: white;
+    width:150px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.45s;
+    margin-bottom: 10px;
+    right:8px;
+  }
+  input[type='reset']:hover{
+    background: #0000;
+    border:solid white;
+    border-width: thin;
+    transition: 0.45s;
+    color:white;
+  }
+}
+
+@media only screen and (max-width: 411px) {
+  .ir {
+    display: block;
+    overflow: visible;
+    padding: 0 0 100%;
+    position: relative;
+    height: -10px;
+    justify-content: center;
+  }
+
+  .social{
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+    top:5%;
+   box-sizing: border-box;
+  }
+  #eye{
+    position: absolute;
+    width:145px;
+    height:145px;
+    top: 30% ;
+    right:26%;
+  }
+  input[type='reset']{
+    position: relative;
+    top: -40px;
+    color: black;
+    background-color: white;
+    width:150px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.45s;
+    margin-bottom: 10px;
+    right:8px;
+  }
+  input[type='reset']:hover{
+    background: #0000;
+    border:solid white;
+    border-width: thin;
+    transition: 0.45s;
+    color:white;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .ir {
+    display: block;
+    overflow: visible;
+    padding: 0 0 100%;
+    position: relative;
+    height: -10px;
+    justify-content: center;
+  }
+
+  .social{
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+    top:5%;
+   box-sizing: border-box;
+  }
+  #eye{
+    position: absolute;
+    width:155px;
+    height:155px;
+    top: 30% ;
+    right:26%;
+  }
+  input[type='reset']{
+    position: relative;
+    top: -40px;
+    color: black;
+    background-color: white;
+    width:150px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.45s;
+    margin-bottom: 10px;
+    right:8px;
+  }
+  input[type='reset']:hover{
+    background: #0000;
+    border:solid white;
+    border-width: thin;
+    transition: 0.45s;
+    color:white;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .ir {
+    display: block;
+    overflow: visible;
+    padding: 0 0 100%;
+    position: relative;
+    height: -10px;
+    justify-content: center;
+  }
+
+  .social{
+    position: relative;
+    justify-content: center;
+    list-style-type: none;
+    font-size: 40px;
+    top:5%;
+   box-sizing: border-box;
+  }
+  #eye{
+    position: absolute;
+    width:120px;
+    height:120px;
+    top: 30% ;
+    right:25%;
+  }
+  input[type='reset']{
+    position: relative;
+    top: -40px;
+    color: black;
+    background-color: white;
+    width:150px;
+    padding: 8px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    transition: 0.45s;
+    margin-bottom: 10px;
+    right:8px;
+  }
+  input[type='reset']:hover{
+    background: #0000;
+    border:solid white;
+    border-width: thin;
+    transition: 0.45s;
+    color:white;
+  }
