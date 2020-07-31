@@ -123,7 +123,7 @@ p{
   margin:0;
   padding: 0;
 }
-.but{
+input[type='reset']{
   position: relative;
   top:10px;
   color: black;
@@ -137,7 +137,7 @@ p{
   outline: none;
   cursor: pointer;
 }
-.but:hover{
+input[type='reset']:hover{
   background: #0000;
   border:solid white;
   border-width: thin;
